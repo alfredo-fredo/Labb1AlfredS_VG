@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyTheme.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    if(MyTheme.themeColor != nil){
+        self.view.backgroundColor = MyTheme.themeColor;
+    }
+
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    if(MyTheme.themeColor != nil){
+        self.view.backgroundColor = MyTheme.themeColor;
+    }
 }
 
 

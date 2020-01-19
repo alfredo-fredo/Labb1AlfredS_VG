@@ -16,6 +16,10 @@
 		BB005B8723CCA1FB00DD19C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB005B8623CCA1FB00DD19C5 /* main.m */; };
 		BB005B9123CCA1FB00DD19C5 /* Labb1AlfredSa_vblomVGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB005B9023CCA1FB00DD19C5 /* Labb1AlfredSa_vblomVGTests.m */; };
 		BB005B9C23CCA1FC00DD19C5 /* Labb1AlfredSa_vblomVGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB005B9B23CCA1FC00DD19C5 /* Labb1AlfredSa_vblomVGUITests.m */; };
+		BB21AC9A23D1CA1200A539C0 /* ColorScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21AC9923D1CA1200A539C0 /* ColorScreenViewController.m */; };
+		BB21AC9D23D1DB6400A539C0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB21AC9C23D1DB6400A539C0 /* GameViewController.m */; };
+		BBAB478423D4CF2200FF9EF7 /* PictureScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB478323D4CF2200FF9EF7 /* PictureScreenViewController.m */; };
+		BBAB478D23D4E10400FF9EF7 /* MyTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB478C23D4E10400FF9EF7 /* MyTheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		BB005B9723CCA1FC00DD19C5 /* Labb1AlfredSävblomVGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Labb1AlfredSävblomVGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB005B9B23CCA1FC00DD19C5 /* Labb1AlfredSa_vblomVGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labb1AlfredSa_vblomVGUITests.m; sourceTree = "<group>"; };
 		BB005B9D23CCA1FC00DD19C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB21AC9823D1CA1200A539C0 /* ColorScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorScreenViewController.h; sourceTree = "<group>"; };
+		BB21AC9923D1CA1200A539C0 /* ColorScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorScreenViewController.m; sourceTree = "<group>"; };
+		BB21AC9B23D1DB6400A539C0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BB21AC9C23D1DB6400A539C0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BBAB478223D4CF2200FF9EF7 /* PictureScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureScreenViewController.h; sourceTree = "<group>"; };
+		BBAB478323D4CF2200FF9EF7 /* PictureScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureScreenViewController.m; sourceTree = "<group>"; };
+		BBAB478B23D4E10400FF9EF7 /* MyTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTheme.h; sourceTree = "<group>"; };
+		BBAB478C23D4E10400FF9EF7 /* MyTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTheme.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,14 @@
 				BB005B8223CCA1FB00DD19C5 /* LaunchScreen.storyboard */,
 				BB005B8523CCA1FB00DD19C5 /* Info.plist */,
 				BB005B8623CCA1FB00DD19C5 /* main.m */,
+				BB21AC9823D1CA1200A539C0 /* ColorScreenViewController.h */,
+				BB21AC9923D1CA1200A539C0 /* ColorScreenViewController.m */,
+				BB21AC9B23D1DB6400A539C0 /* GameViewController.h */,
+				BB21AC9C23D1DB6400A539C0 /* GameViewController.m */,
+				BBAB478223D4CF2200FF9EF7 /* PictureScreenViewController.h */,
+				BBAB478323D4CF2200FF9EF7 /* PictureScreenViewController.m */,
+				BBAB478B23D4E10400FF9EF7 /* MyTheme.h */,
+				BBAB478C23D4E10400FF9EF7 /* MyTheme.m */,
 			);
 			path = "Labb1AlfredSävblomVG";
 			sourceTree = "<group>";
@@ -269,7 +289,11 @@
 			files = (
 				BB005B7C23CCA1F900DD19C5 /* ViewController.m in Sources */,
 				BB005B7623CCA1F900DD19C5 /* AppDelegate.m in Sources */,
+				BBAB478423D4CF2200FF9EF7 /* PictureScreenViewController.m in Sources */,
+				BB21AC9A23D1CA1200A539C0 /* ColorScreenViewController.m in Sources */,
 				BB005B8723CCA1FB00DD19C5 /* main.m in Sources */,
+				BBAB478D23D4E10400FF9EF7 /* MyTheme.m in Sources */,
+				BB21AC9D23D1DB6400A539C0 /* GameViewController.m in Sources */,
 				BB005B7923CCA1F900DD19C5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
